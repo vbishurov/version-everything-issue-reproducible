@@ -1,0 +1,17 @@
+{
+  "name": "issue-reproducible",
+  "version": "1.0.0",
+  "description": "Showcases issue where previous file gets truncated due to an error in xml file because of a comment before root element.",
+  "scripts": {
+    "version": "version-everything"
+  },
+  "version-everything": {
+    "files": [
+      "manifest.json",
+      "updates.xml"
+    ]
+  },
+  "devDependencies": {
+    "version-everything": "^0.7.4"
+  }
+}
